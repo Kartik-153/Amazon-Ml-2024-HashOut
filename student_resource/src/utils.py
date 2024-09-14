@@ -14,6 +14,12 @@ import requests
 import urllib
 from PIL import Image
 
+
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+
+
 def common_mistake(unit):
     if unit in constants.allowed_units:
         return unit
