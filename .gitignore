@@ -1,7 +1,8 @@
-*/.ipynb_checkpoints/*
-**/__pycache__/*
+.ipynb_checkpoints/
+__pycache__/
 **/.DS_Store
 *.idea
 **/mlruns/*
 model_checkpoints/*
 .venv
+student_resource/images
