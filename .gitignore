@@ -6,4 +6,4 @@ __pycache__/
 model_checkpoints/*
 .venv
 student_resource/images
-/__MACOSX
+__init__.py
